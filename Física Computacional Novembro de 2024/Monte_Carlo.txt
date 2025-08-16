@@ -1,0 +1,3 @@
+ Integral =  0.78785849     Exato =  0.78539819    
+ Erro estimado:  6.39756909E-05 Erro obtido:  2.46030092E-03
+ N =    10000000

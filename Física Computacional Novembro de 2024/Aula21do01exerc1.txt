@@ -1,0 +1,9 @@
+ Integral de e^x
+ Valor Exato:   47.209091    
+ Valor numérico pela Integral Trapézio:   47.366356    
+ ERRO RELATIVO  0.33312377     %
+ Repartições (N):          10
+ -------------------------------------------------
+ Valor numérico pela Integral de Simpson:   47.209515    
+ ERRO RELATIVO  8.96927668E-04 %
+ Repartições (N):          10

@@ -1,0 +1,5 @@
+ Integral de r^2 sobre um volume esferico
+ Raio:   1.0000000    
+ Valor exato:   2.5132740    
+ Valor numerico:   2.5123968    
+ Erro percentual:  3.49003710E-02 %
