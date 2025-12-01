@@ -1,0 +1,11 @@
+ hora inicial          16          49          52
+ Valor numérico pela Integral de Simpson:   2.5132194    
+ Valor Exato:   2.5132742    
+ ERRO RELATIVO  2.18186597E-03 %
+ Repartições (N):        1000
+ -------------------------------------------------
+ Valor numérico pela Integral Trapézio:   2.5131304    
+ Valor Exato:   2.5132742    
+ ERRO RELATIVO  5.72028337E-03 %
+ Repartições (N):        1000
+ hora final          16          50           9

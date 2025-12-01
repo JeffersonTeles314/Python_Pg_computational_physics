@@ -1,6 +1,0 @@
- Integral de r^3 sobre um volume esférico
- Raio:   1.5707963    
- Valor numérico:   25.133049    
- Valor exato:   25.132740    
- Erro percentual:  1.22943416E-03 %
- Repartições (N):         300

@@ -1,6 +1,0 @@
- Integral Dupla de r^2 
- Raio:   1.5707964    
- Valor numerico:   6.0000048    
- Valor exato:   6.0000000    
- Erro percentual:  7.94728621E-05 %
- Reparticoes (N):       10000

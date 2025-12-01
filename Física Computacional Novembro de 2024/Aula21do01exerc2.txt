@@ -1,9 +1,0 @@
- Integral de x^3 + x^2 + x*cos(2x)
- Valor Exato:   81.529221    
- Valor numérico pela Integral Trapézio:   81.627693    
- ERRO RELATIVO  0.12078197     %
- Repartições (N):          10
- -------------------------------------------------
- Valor numérico pela Integral de Simpson:   81.529556    
- ERRO RELATIVO  4.11746063E-04 %
- Repartições (N):          10

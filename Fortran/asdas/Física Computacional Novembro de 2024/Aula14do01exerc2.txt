@@ -1,0 +1,8 @@
+ hora inicial          16          33          56
+ Integral sobre um volume esférico
+ Raio:   3.0000000    
+ Valor numérico:   1512.2003    
+ Valor exato:   1512.2000    
+ Erro percentual:  2.42170972E-05 %
+ Repartições (N):        1000
+ hora final          16          34           4

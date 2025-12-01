@@ -1,4 +1,0 @@
-
- Integral por GAULEG:   81.529221
- Valor exato da Integral:   81.529221
- ERRO RELATIVO   0.0000000     %

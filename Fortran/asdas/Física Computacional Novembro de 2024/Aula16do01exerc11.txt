@@ -1,0 +1,6 @@
+ Integral Dupla Numeria de x^2 + 4y^2
+ Raio:   2.0000000    
+ Valor numerico:   3.1415169    
+ Valor exato:   3.1415927    
+ Erro percentual:  2.41333339E-03 %
+ Reparticoes (N):        1000

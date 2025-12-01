@@ -1,8 +1,0 @@
- Hora inicial          15          43          12
- Integral de r^2 sobre um volume esférico
- Raio:   1.0000000    
- Repartições (N):        1000
- Valor exato:   2.5132740    
- Valor numérico:   2.5131304    
- Erro percentual:  5.71079738E-03 %
- Hora final          15          43          20

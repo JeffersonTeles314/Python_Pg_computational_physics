@@ -1,6 +1,0 @@
- Integral Dupla de sen(x/y)
- Raio:   3.1415927    
- Valor numerico:   6.9348102    
- Valor exato:   6.9348025    
- Erro percentual:  1.10016030E-04 %
- Reparticoes (N):       10000

@@ -1,5 +1,0 @@
- Integral de x*sqrt(1+x)
- Valor Exato:   7.7333331    
- Valor numérico pela Integral de Simpson:   7.7333627    
- ERRO RELATIVO  3.82291881E-04 %
- Repartições (N):          10
