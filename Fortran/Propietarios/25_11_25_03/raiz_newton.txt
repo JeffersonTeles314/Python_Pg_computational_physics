@@ -1,0 +1,5 @@
+ icont           1
+ icont           2
+ icont           3
+ icont           4
+ Raiz Encontrada x=   0.18343464249564981     

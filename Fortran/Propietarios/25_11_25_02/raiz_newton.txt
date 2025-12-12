@@ -1,0 +1,27 @@
+ icont           1
+ icont           2
+ icont           3
+ icont           4
+ icont           5
+ icont           6
+ icont           7
+ icont           8
+ icont           9
+ icont          10
+ icont          11
+ icont          12
+ icont          13
+ icont          14
+ icont          15
+ icont          16
+ icont          17
+ icont          18
+ icont          19
+ icont          20
+ icont          21
+ icont          22
+ icont          23
+ icont          24
+ icont          25
+ icont          26
+ Raiz Encontrada x=    1.3999999829178447     
