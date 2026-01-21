@@ -1,0 +1,32 @@
+Vamos Comparar os Valores de um Termo onde x = 1, h = 0,05
+
+Euler
+ Passo:          20  x:   1.0000000000000000       y:  0.78705783982820687       exato:  0.77880078307140488
+Seguinda Ordem
+ Passo:          20  x:   1.0000000000000000       y:  0.77880798358539016       exato:  0.77880078307140488   
+Terceira Ordem
+ Passo:          20  x:   1.0000000000000000       y:  0.77880177135889472       exato:  0.77880078307140488 
+Quarta Ordem
+ Passo:          20  x:   1.0000000000000000       y:  0.77880078323201807       exato:  0.77880078307140488
+
+
+Vamos Comparar os Valores de um Termo onde x = 1, h = 0,10
+
+Euler
+ Passo:          10  x:   1.0000000000000000       y:  0.79560746520065817       exato:  0.77880078307140488
+Segunda Ordem
+ Passo:          10  x:   1.0000000000000000       y:  0.77881741363523727       exato:  0.77880078307140488
+Terceira Ordem
+ Passo:          10  x:   1.0000000000000000       y:  0.77880889568479539       exato:  0.77880078307140488
+Quarta Ordem
+ Passo:          10  x:   1.0000000000000000       y:  0.77880078478015602       exato:  0.77880078307140488
+
+Vamos Comparar os Valores de um Termo onde x = 1, h = 0,20
+Euler
+ Passo:           5  x:   1.0000000000000000       y:  0.81360383999999997       exato:  0.77880078307140488
+Segunda Ordem
+ Passo:           5  x:   1.0000000000000000       y:  0.77876474866831880       exato:  0.77880078307140488 
+Terceira Ordem
+ Passo:           5  x:   1.0000000000000000       y:  0.77886915702705151       exato:  0.77880078307140488
+Quarta Ordem
+ Passo:           5  x:   1.0000000000000000       y:  0.77880078054369950       exato:  0.77880078307140488 
