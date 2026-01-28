@@ -1,4 +1,5 @@
 program seguro
+! Crie um programa que utilize variáveis implícitas
 implicit none
 integer a
 real m
