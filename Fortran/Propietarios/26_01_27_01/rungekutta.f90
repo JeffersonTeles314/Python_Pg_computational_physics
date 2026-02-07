@@ -19,7 +19,7 @@ contains
         x_inicial = -3.0d0
         x_final = 3.0d0
         h = 0.01d0
-        i_total = nint((x_final - x_inicial) / h) + 100
+        i_total = nint((x_final - x_inicial) / h)
 
         ! Alocação dinâmica para evitar estouro de memória
         allocate(zvals(0:i_total))
@@ -28,9 +28,12 @@ contains
         yvals(0) = 0.0d0 ! Condição inicial (y_pvi)
         zvals(0) = 0.0000001d0 ! Condição inicial (z_pvi)
 
-
+        open(20, file="graph.txt")
         do i = 0, i_total - 1
             x_atual = x_inicial + i * h
+            
+            write(20,*)  x_atual, zvals(i)
+            
             k1y = h * zvals(i)
             k1z = h * func_f(x_atual,yvals(i),zvals(i),e)
 
@@ -51,7 +54,9 @@ contains
             if(yvals(i+1)*yvals(i).LT.0) then
             runge = runge + 1
             end if
+
         end do
+        close(20)
     end function
 
 end module meu_modulo
