@@ -1,3 +1,9 @@
+! Use o método de Runge-Kutta, considerando o ponto de união (matching point) em
+! x = (−a), para encontrar as três menores energias dos estados estacionários de
+! uma partícula em um poço quadrado finito de largura 6 Å e barreira de energia
+! potencial V = 10 Ev. Considere h = 0,01. Coloque uma precisão de 10^(−10).
+! Compare os valores que você encontrou com os valores exatos.
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0

@@ -1,3 +1,8 @@
+! Use o método de Runge-Kutta, analisando o número de nós, para encontrar
+! as três menores energias dos estados estacionários de uma partícula em um
+! poço quadrado infinito de largura 6 Å. Considere h = 0,01. Coloque uma precisão de 10^(−10).
+! Compare os valores que você encontrou com os valores exatos.
+
 module meu_modulo
   implicit none ! Necessária para Evitar atribuições de Tipo Por Causa da Inicialização Implícita
 contains

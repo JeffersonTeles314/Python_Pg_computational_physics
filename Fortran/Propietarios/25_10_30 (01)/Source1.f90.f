@@ -1,4 +1,4 @@
-! Crie um Programa, que escrve em um txt os n£meros de 5 a 11.
+! Crie um Programa, que escrve em um txt os n√∫meros de 5 a 11.
 
 program escreve
 open(11, file="escreve.txt")

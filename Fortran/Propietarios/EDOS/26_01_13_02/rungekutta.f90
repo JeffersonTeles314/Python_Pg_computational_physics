@@ -1,3 +1,26 @@
+! Escreva um cÃ³digo computacional em Fortran para resolver a equaÃ§Ã£o diferencial
+
+! d
+! 2y
+! dx
+! 2 = âˆ’y âˆ’ x
+! dy
+! dx
+! na regiÃ£o 0 < x < 5 usando os seguintes mÃ©todos de
+! (a) Euler
+! (b) Rungeâ€“Kutta de quarta ordem
+! Com y(0) = 1, y
+! â€²
+! (0) = z(0) = 0.
+
+! FaÃ§a um grÃ¡fico dos seus resultados para h = 0,05, 0,10, 0,15 e 0,20, juntamente
+! com o resultado exato que Ã© y = exp(âˆ’x
+! 2
+! /2). Para x = 3 faÃ§a uma comparaÃ§Ã£o
+
+! entre os resultados obtidos por Euler e Rungeâ€“Kutta de quarta ordem.
+
+
 module metodos_edos
     implicit none
 contains
@@ -37,14 +60,14 @@ program edos
     h = 0.2d0
     i_total = nint((x_final - x_inicial) / h)
 
-    ! Alocação dinâmica para evitar estouro de memória
+    ! Alocaï¿½ï¿½o dinï¿½mica para evitar estouro de memï¿½ria
     allocate(zvals(0:i_total))
     allocate(yvals(0:i_total))
 
     open(13, file="results.txt")
     
-    yvals(0) = 1.0d0 ! Condição inicial (y_pvi)
-    zvals(0) = 0.0d0 ! Condição inicial (z_pvi)
+    yvals(0) = 1.0d0 ! Condiï¿½ï¿½o inicial (y_pvi)
+    zvals(0) = 0.0d0 ! Condiï¿½ï¿½o inicial (z_pvi)
 
     ! =====LOOP=====
 
@@ -62,9 +85,9 @@ program edos
         k4y = h * (zvals(i) + k3z)
         k4z = h * func_f(x_atual + h ,yvals(i) + k3y,zvals(i)+ k3z)
 
-        ! Cálculo do
+        ! Cï¿½lculo do
         yvals(i+1) = yvals(i) + (k1y+2.0d0*k2y+2.0d0*k3y+k4y)/6.0d0
-        ! Cálculo do
+        ! Cï¿½lculo do
         zvals(i+1) = zvals(i) + (k1z+2.0d0*k2z+2.0d0*k3z+k4z)/6.0d0
 
         ! Escrita dos resultados
@@ -72,7 +95,7 @@ program edos
             "Passo:", i , " x:" , x_atual ," y:" , yvals(i) ," z:", zvals(i)," exato:", exato(x_atual)
     end do
 
-    ! Escreve o último ponto calculado
+    ! Escreve o ï¿½ltimo ponto calculado
     write(13, *) &
         "Passo:", i, " x:", x_atual, " y:", yvals(i)," z:", zvals(i)," exato:", exato(x_atual)
 
