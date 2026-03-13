@@ -1,3 +1,5 @@
+! INTEGRAIS - Método do Trapézio
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0
