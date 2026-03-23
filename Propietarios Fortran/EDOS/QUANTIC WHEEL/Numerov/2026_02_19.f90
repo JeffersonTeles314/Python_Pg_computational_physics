@@ -1,3 +1,7 @@
+! Use o método de Numerov, considerando o ponto de união (matching point) em x = −a, para encontrar as três menores energias dos estados estacionários de uma
+! partícula em um poço quadrado finito de largura 6 Å e barreira de energia potencial
+! V = 10 Ev. Considere h = 0,01. Coloque uma precisão de 10^−10. Compare os valores que você encontrou com os valores exatos.
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0
@@ -51,7 +55,7 @@ contains
             numerador = numerador + (5.00d0 * func_g(x_atual,e,a) * yvals(i) * (h**2.0d0))/6.0d0
             numerador = numerador + (func_g((x_atual - h),e, a) * yvals(i-1) * h**2.0d0)/12.0d0
             denominador = 1 - (func_g(x_atual+h,e,a) * (h**2.0d0))/12.0d0
-            ! C�lculo do pr�ximo Valor
+            ! C�lculo do pr�ximo Valor
             yvals(i+1) = numerador/denominador
             zvals(i) = (yvals(i+1) - yvals(i-1))/2*h
 
@@ -93,7 +97,7 @@ contains
             numerador = numerador + (5.00d0 * func_g(x_atual,e,a) * yvals(i) * (h**2.0d0))/6.0d0
             numerador = numerador + (func_g((x_atual - h),e, a) * yvals(i-1) * h**2.0d0)/12.0d0
             denominador = 1 - (func_g(x_atual+h,e,a) * (h**2.0d0))/12.0d0
-            ! C�lculo do pr�ximo Valor
+            ! C�lculo do pr�ximo Valor
             yvals(i+1) = numerador/denominador
             zvals(i) = (yvals(i+1) - yvals(i-1))/2*h
 

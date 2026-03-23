@@ -1,5 +1,9 @@
 ! INTEGRAIS - Método do Trapézio
 
+! Use a regra do trapézio para calcular a integral \int e^x dx. O valor exato é e^4 - e^2.
+! Use h = 0,01 e depois h = 0,001. Compare seu resultado numérico com o valor exato.
+
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0

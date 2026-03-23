@@ -1,0 +1,2 @@
+Constante de desintegração (lambda): 0.0770 meses⁻¹
+Meia-vida calculada: 9.00 meses

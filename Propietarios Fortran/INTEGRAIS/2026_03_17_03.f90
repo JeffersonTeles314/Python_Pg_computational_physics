@@ -1,3 +1,6 @@
+! INTEGRAIS - Normalisação de uma função de onda do Poço de Potencial Finito
+! Comparando os resultados numéricos usando a regra de Simpson e a regra do trapézio para a normalização da função de onda ímpar do poço de potencial finito. O valor exato é 1. Use h = 0,01 e depois h = 0,001.
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0

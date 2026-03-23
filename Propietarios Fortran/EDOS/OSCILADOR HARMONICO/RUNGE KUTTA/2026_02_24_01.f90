@@ -1,3 +1,7 @@
+! Use o método de Runge-Kutta, analisando o número de nós, para encontrar
+! as três menores energias para o potencial V(x) = 1 2 kx 2 , do oscilador harmônico quântico (veja as figuras a seguir), onde k = 0,5 eV/Å2 . Considere uma energia máxima igual a Emáx = 6,25 eV, h = 0,01 , xmín =
+! −1,6 a, xmáx = 1,6 a, ħ 2 = 7,6199682 meeVÅ 2 e uma precisão de 10−10.Compare os valores que você encontrou com os valores exatos.
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0
@@ -5,7 +9,7 @@ contains
 
     real*8 function volt(x,a)
         real*8, intent(in) :: x, a
-        volt = (x**2.0d0)/4
+        volt = (x**2.0d0)/4.0d0
     end function
 
     real*8 function func_f(x,y,z,e,a)

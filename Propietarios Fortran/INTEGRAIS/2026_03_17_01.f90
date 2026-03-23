@@ -1,5 +1,5 @@
 ! INTEGRAIS - Normalisação de uma função de onda do Poço de Potencial Finito
-
+! FUNÇÃO DE ONDA ÍMPAR - Use a regra de Simpson para calcular a integral ∫ ψ^2 dx, onde ψ é a função de onda ímpar do poço de potencial finito. Use h = 0,01 e depois h = 0,001. Compare seu resultado numérico usando a regra de Simpson com o valor exato e com o valor numérico usando a regra do trapézio. O valor exato é 1.
 
 module meu_modulo
   implicit none
@@ -15,7 +15,7 @@ contains
                 if ( x < -var_a) then
                     func = (cons_f * 2.718281828d0**(x*var_beta))**2.0d0
                 else if (x >= -var_a .and. x <= var_a) then
-                    func = (cons_d * dcos(var_alfa * x))**2.0d0
+                    func = (cons_d * dsin(var_alfa * x))**2.0d0
                 else if (x > var_a) then
                     func = (cons_f * 2.718281828d0**(-x*var_beta))**2.0d0
                 end if
@@ -50,16 +50,11 @@ program edos
     ! Parâmetros para a normalização da função de onda
     v0 = 10.0d0
     var_a = 3.0d0
-    var_alfa = alfa(e_1)
-    var_beta = beta(e_1, v0)
-
-
-    print *, "Alfa: ", var_alfa
-    print *, "Beta: ", var_beta
-
+    var_alfa = alfa(e_2)
+    var_beta = beta(e_2, v0)
 
     cons_d = 1.0d0 / dsqrt((1.0d0/var_beta) + var_a)
-    cons_f =  (2.718281828d0**(var_beta * var_a)) * dcos(var_alfa * var_a) * cons_d
+    cons_f =  (2.718281828d0**(var_beta * var_a)) * dsin(var_alfa * var_a) * cons_d
 
     print *, "Constante D: ", cons_d
     print *, "Constante F: ", cons_f

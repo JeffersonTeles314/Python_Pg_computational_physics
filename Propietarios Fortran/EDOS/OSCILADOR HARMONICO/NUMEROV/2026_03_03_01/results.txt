@@ -1,0 +1,81 @@
+ Valor de e encontrado:    2.9299999999999802     
+ Número de nós:            2
+ Número de iterações da bisseção:           92
+ Valor de e encontrado:    2.9299999999999802     
+ Número de nós:            2
+ Número de iterações da bisseção:           94
+ Valor de e encontrado:    2.9299999999999802     
+ Número de nós:            2
+ Número de iterações da bisseção:           96
+ Valor de e encontrado:    2.9287499999999804     
+ Número de nós:            2
+ Número de iterações da bisseção:           97
+ Valor de e encontrado:    2.9287499999999800     
+ Número de nós:            2
+ Número de iterações da bisseção:           99
+ Valor de e encontrado:    2.9284374999999803     
+ Número de nós:            2
+ Número de iterações da bisseção:          100
+ Valor de e encontrado:    2.9282812499999800     
+ Número de nós:            2
+ Número de iterações da bisseção:          101
+ Valor de e encontrado:    2.9282031249999800     
+ Número de nós:            2
+ Número de iterações da bisseção:          102
+ Valor de e encontrado:    2.9282031249999800     
+ Número de nós:            2
+ Número de iterações da bisseção:          104
+ Valor de e encontrado:    2.9281835937499801     
+ Número de nós:            2
+ Número de iterações da bisseção:          105
+ Valor de e encontrado:    2.9281738281249803     
+ Número de nós:            2
+ Número de iterações da bisseção:          106
+ Valor de e encontrado:    2.9281689453124802     
+ Número de nós:            2
+ Número de iterações da bisseção:          107
+ Valor de e encontrado:    2.9281689453124802     
+ Número de nós:            2
+ Número de iterações da bisseção:          109
+ Valor de e encontrado:    2.9281689453124797     
+ Número de nós:            2
+ Número de iterações da bisseção:          111
+ Valor de e encontrado:    2.9281683349609176     
+ Número de nós:            2
+ Número de iterações da bisseção:          112
+ Valor de e encontrado:    2.9281683349609171     
+ Número de nós:            2
+ Número de iterações da bisseção:          114
+ Valor de e encontrado:    2.9281681823730268     
+ Número de nós:            2
+ Número de iterações da bisseção:          115
+ Valor de e encontrado:    2.9281681823730268     
+ Número de nós:            2
+ Número de iterações da bisseção:          117
+ Valor de e encontrado:    2.9281681442260541     
+ Número de nós:            2
+ Número de iterações da bisseção:          118
+ Valor de e encontrado:    2.9281681442260541     
+ Número de nós:            2
+ Número de iterações da bisseção:          120
+ Valor de e encontrado:    2.9281681346893107     
+ Número de nós:            2
+ Número de iterações da bisseção:          121
+ Valor de e encontrado:    2.9281681346893107     
+ Número de nós:            2
+ Número de iterações da bisseção:          123
+ Valor de e encontrado:    2.9281681346893107     
+ Número de nós:            2
+ Número de iterações da bisseção:          125
+ Valor de e encontrado:    2.9281681334972181     
+ Número de nós:            2
+ Número de iterações da bisseção:          126
+ Valor de e encontrado:    2.9281681329011713     
+ Número de nós:            2
+ Número de iterações da bisseção:          127
+ Valor de e encontrado:    2.9281681326031483     
+ Número de nós:            2
+ Número de iterações da bisseção:          128
+ Valor de e encontrado:    2.9281681326031479     
+ Número de nós:            2
+ Número de iterações da bisseção:          130

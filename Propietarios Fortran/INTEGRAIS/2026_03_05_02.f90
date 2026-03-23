@@ -1,5 +1,7 @@
 ! INTEGRAIS - Método de Simpson
-
+! Use a regra de Simpson para calcular a integral ∫ e^x dx. Use h = 0,01 e depois
+! h = 0,001. Compare seu resultado numérico usando a regra de Simpson com o valor
+! exato e com o valor numérico usando a regra do trapézio. O valor exato é = e^4 - e^2.
 
 module meu_modulo
   implicit none

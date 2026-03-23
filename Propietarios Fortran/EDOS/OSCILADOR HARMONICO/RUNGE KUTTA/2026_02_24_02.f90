@@ -1,3 +1,7 @@
+! Use o método de Runge-Kutta, considerando o ponto de união (matching point) em
+! x = −a, para encontrar as três menores energias para o potencial V(x) =1 2 kx 2, dooscilador harmônico quântico (veja as figuras a seguir), onde k = 0,5 eV/Å2Considere uma energia máxima igual a Emáx = 6,25 eV, h = 0,01 , xmín = −1,6 a,
+! xmáx = 1,6 a, ħ2 = 7,6199682 meeVÅ2e uma precisão de 10−10. Compare osvalores que você encontrou com os valores exatos.
+
 module meu_modulo
   implicit none
   real*8, parameter :: hbar2_2m = 7.6199682d0
